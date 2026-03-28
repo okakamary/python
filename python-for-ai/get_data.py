@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
+import matplotlib.pyplot as plt
 
 today = datetime.now()
 week_ago = today - timedelta(days=7)
